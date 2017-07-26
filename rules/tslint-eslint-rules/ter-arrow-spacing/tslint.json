@@ -1,0 +1,6 @@
+{
+  "extends": "tslint-eslint-rules",
+  "rules": {
+    "ter-arrow-spacing": [true, { "before": true, "after": true }]
+  }
+}

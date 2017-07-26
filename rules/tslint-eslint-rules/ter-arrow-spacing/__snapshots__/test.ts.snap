@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+const fn = ()=>{};
+
+======
+const fn = () => {};
+
+>>>>>> after
+"
+`;
+
+exports[`should fail before formatting 1`] = `
+"ERROR: (ter-arrow-spacing) /rules/tslint-eslint-rules/ter-arrow-spacing/test.ts[1, 14]: Missing space before =>.
+ERROR: (ter-arrow-spacing) /rules/tslint-eslint-rules/ter-arrow-spacing/test.ts[1, 14]: Missing space after =>.
+"
+`;
