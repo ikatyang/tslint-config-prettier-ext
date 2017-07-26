@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+let x : string;
+
+======
+let x: string;
+
+>>>>>> after
+"
+`;
+
+exports[`should fail before formatting 1`] = `
+"ERROR: (typedef-whitespace) /rules/tslint/typedef-whitespace/test.ts[1, 6]: expected nospace before colon in variable-declaration
+"
+`;
