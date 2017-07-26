@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+const x = {a:1};
+
+======
+const x = { a: 1 };
+
+>>>>>> after
+"
+`;
+
+exports[`should fail before formatting 1`] = `
+"ERROR: (object-curly-spacing) /rules/tslint-eslint-rules/object-curly-spacing/test.ts[1, 11]: A space is required after '{'
+ERROR: (object-curly-spacing) /rules/tslint-eslint-rules/object-curly-spacing/test.ts[1, 15]: A space is required before '}'
+"
+`;

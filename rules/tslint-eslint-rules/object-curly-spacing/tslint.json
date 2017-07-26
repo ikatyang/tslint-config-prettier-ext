@@ -1,0 +1,6 @@
+{
+  "extends": "tslint-eslint-rules",
+  "rules": {
+    "object-curly-spacing": [true ,"always"]
+  }
+}
