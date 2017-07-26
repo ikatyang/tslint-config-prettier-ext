@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+let 　 abc;
+
+======
+let abc;
+
+>>>>>> after
+"
+`;
+
+exports[`should fail before formatting 1`] = `
+"ERROR: (no-irregular-whitespace) /rules/tslint/no-irregular-whitespace/test.ts[1, 5]: Irregular whitespace not allowed
+"
+`;
