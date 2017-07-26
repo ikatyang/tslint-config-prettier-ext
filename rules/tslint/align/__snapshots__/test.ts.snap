@@ -2,14 +2,14 @@
 
 exports[`should be pretty after formatting 1`] = `
 "
-<<<<<<< before
+<<<<<< before
 export function test(a: number,
   b: number) {}
 
-=======
+======
 export function test(a: number, b: number) {}
 
->>>>>>> after
+>>>>>> after
 "
 `;
 
