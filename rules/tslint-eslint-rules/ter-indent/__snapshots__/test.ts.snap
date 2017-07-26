@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+if (true) {
+console.log(123);
+}
+
+======
+if (true) {
+  console.log(123);
+}
+
+>>>>>> after
+"
+`;
+
+exports[`should fail before formatting 1`] = `
+"ERROR: (ter-indent) /rules/tslint-eslint-rules/ter-indent/test.ts[2, 1]: Expected indentation of 2 spaces but found 0.
+"
+`;
