@@ -1,0 +1,15 @@
+language: node_js
+
+node_js:
+- stable
+
+script:
+- yarn run lint
+- yarn run format-check
+- yarn run test -- --verbose
+- yarn run generate
+
+cache:
+  yarn: true
+  directories:
+  - node_modules
