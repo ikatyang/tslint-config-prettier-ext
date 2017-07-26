@@ -12,6 +12,7 @@ disable all prettier-related rules
 - fully tested
 - support rules from
   - [tslint](https://github.com/palantir/tslint)
+  - [tslint-eslint-rules](https://github.com/buzinas/tslint-eslint-rules)
 
 ## Install
 
