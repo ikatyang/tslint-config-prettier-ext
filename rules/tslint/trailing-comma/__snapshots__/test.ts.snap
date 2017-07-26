@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+const x = { a: 1, };
+const y = [1,];
+
+======
+const x = { a: 1 };
+const y = [1];
+
+>>>>>> after
+"
+`;
+
+exports[`should fail before formatting 1`] = `
+"ERROR: (trailing-comma) /rules/tslint/trailing-comma/test.ts[1, 17]: Unnecessary trailing comma
+ERROR: (trailing-comma) /rules/tslint/trailing-comma/test.ts[2, 13]: Unnecessary trailing comma
+"
+`;
