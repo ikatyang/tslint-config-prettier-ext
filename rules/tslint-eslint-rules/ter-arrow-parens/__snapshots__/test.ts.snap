@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+[].map((x) => 1);
+
+======
+[].map(x => 1);
+
+>>>>>> after
+"
+`;
+
+exports[`should fail before formatting 1`] = `
+"ERROR: (ter-arrow-parens) /rules/tslint-eslint-rules/ter-arrow-parens/test.ts[1, 8]: Unexpected parentheses around single function argument.
+"
+`;
