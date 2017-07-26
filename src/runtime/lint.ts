@@ -1,7 +1,5 @@
-import * as fs from 'fs';
 import * as path from 'path';
 import * as tslint from 'tslint';
-import * as ts from 'typescript';
 
 export function lint(filename: string, source: string) {
   const dirname = path.dirname(filename);
