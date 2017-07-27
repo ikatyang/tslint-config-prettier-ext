@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+const fail = <App foo={bar } />;
+
+======
+const fail = <App foo={bar} />;
+
+>>>>>> after
+"
+`;
+
+exports[`should fail before formatting 1`] = `
+"ERROR: (jsx-curly-spacing) /rules/tslint-react/jsx-curly-spacing/test.tsx[1, 28]: There should be no space before }
+"
+`;
