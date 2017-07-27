@@ -43,4 +43,7 @@ const rules = rule_names
   );
 
 mkdir.sync(output_dirname);
-fs.writeFileSync(output_filename, JSON.stringify({ rules }, null, 2));
+fs.writeFileSync(
+  output_filename,
+  JSON.stringify({ rules, jsRules: rules }, null, 2),
+);
