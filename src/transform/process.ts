@@ -9,9 +9,14 @@ export function process(source_text: string, source_path: string) {
 
     const message_no_error = 'no error\\n';
     const rule_name = path.basename(__dirname);
-    const error_regex = new RegExp('ERROR: \\\\(' + rule_name + '\\\\)');
+    const error_regex = new RegExp('^ERROR: \\\\(' + rule_name + '\\\\)', 'gm');
 
-    const get_line_count = str => str.split('\\n').length;
+    const get_match_count = (str, regex) => {
+      const result = str.match(regex);
+      return result === null
+        ? 0
+        : result.length;
+    };
     const print_before_after = (before, after) => (
       '\\n<<<<<< before\\n' +
       before +
@@ -36,15 +41,9 @@ export function process(source_text: string, source_path: string) {
     }
 
     it('should affect error message after formatting', () => {
-      if (message_before === message_no_error) {
-        expect(message_after).toMatch(error_regex);
-      } else if (message_after === message_no_error) {
-        expect(message_before).toMatch(error_regex);
-      } else {
-        expect(message_after).toMatch(error_regex);
-        expect(message_before).toMatch(error_regex);
-        expect(get_line_count(message_after)).not.toBe(get_line_count(message_before));
-      }
+      const error_count_before = get_match_count(message_before, error_regex);
+      const error_count_after = get_match_count(message_after, error_regex);
+      expect(error_count_after).not.toBe(error_count_before);
       expect(print_before_after(message_before, message_after)).toMatchSnapshot();
     });
 
