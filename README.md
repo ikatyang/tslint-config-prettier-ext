@@ -2,6 +2,8 @@
 
 [![npm](https://img.shields.io/npm/v/tslint-config-prettier-ext.svg)](https://www.npmjs.com/package/tslint-config-prettier-ext)
 [![build](https://img.shields.io/travis/ikatyang/tslint-config-prettier-ext/master.svg)](https://travis-ci.org/ikatyang/tslint-config-prettier-ext/builds)
+[![dependencies](https://img.shields.io/david/ikatyang/tslint-config-prettier-ext.svg)](https://david-dm.org/ikatyang/tslint-config-prettier-ext)
+[![devDependencies](https://img.shields.io/david/dev/ikatyang/tslint-config-prettier-ext.svg)](https://david-dm.org/ikatyang/tslint-config-prettier-ext?type=dev)
 
 disable all prettier-related tslint rules
 
