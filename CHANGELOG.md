@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/ikatyang/tslint-config-prettier-ext/compare/v1.0.0...v1.1.0) (2017-07-28)
+
+
+### Features
+
+* support tslint-consistent-codestyle ([af13482](https://github.com/ikatyang/tslint-config-prettier-ext/commit/af13482))
+* support tslint-microsoft-contrib ([#3](https://github.com/ikatyang/tslint-config-prettier-ext/issues/3)) ([13839ec](https://github.com/ikatyang/tslint-config-prettier-ext/commit/13839ec))
+* support tslint-misc-rules ([#5](https://github.com/ikatyang/tslint-config-prettier-ext/issues/5)) ([3c2e5ab](https://github.com/ikatyang/tslint-config-prettier-ext/commit/3c2e5ab))
+* support vrsource-tslint-rules ([#7](https://github.com/ikatyang/tslint-config-prettier-ext/issues/7)) ([d900ebf](https://github.com/ikatyang/tslint-config-prettier-ext/commit/d900ebf))
+
+
+
 <a name="1.0.0"></a>
 # 1.0.0 (2017-07-27)
 
