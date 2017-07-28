@@ -20,12 +20,13 @@
   "scripts": {
     "prepublish": "yarn run build && yarn run generate",
     "lint": "tslint -p ./tsconfig.json --type-check",
-    "test": "jest -c ./jest.json --no-cache",
+    "test": "yarn run clean && jest -c ./jest.json --no-cache",
     "build": "rm -rf ./build && tsc -p ./tsconfig.build.json",
     "generate": "rm -rf ./lib && node ./build/generate.js",
     "format": "gulp format",
     "format-check": "gulp format-check",
-    "release": "standard-version"
+    "release": "standard-version",
+    "clean": "rm ./node_modules/vrsource-tslint-rules/rules/*.ts"
   },
   "devDependencies": {
     "@types/gulp": "3.8.33",
