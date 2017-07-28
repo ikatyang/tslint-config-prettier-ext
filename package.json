@@ -26,7 +26,7 @@
     "format": "gulp format",
     "format-check": "gulp format-check",
     "release": "standard-version",
-    "clean": "rm ./node_modules/vrsource-tslint-rules/rules/*.ts"
+    "clean": "rm -f ./node_modules/vrsource-tslint-rules/rules/*.ts"
   },
   "devDependencies": {
     "@types/gulp": "3.8.33",
