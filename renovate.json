@@ -18,6 +18,10 @@
       "automerge": "patch"
     },
     {
+      "packageName": "tslint-divid",
+      "automerge": "patch"
+    },
+    {
       "packageName": "tslint-eslint-rules",
       "automerge": "patch"
     },

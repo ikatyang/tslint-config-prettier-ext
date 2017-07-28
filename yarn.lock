@@ -3538,6 +3538,10 @@ tslint-consistent-codestyle@1.5.1, tslint-consistent-codestyle@^1.5.1:
     tslib "^1.7.1"
     tsutils "^2.5.0"
 
+tslint-divid@1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/tslint-divid/-/tslint-divid-1.0.4.tgz#7f4941322bf9c97a0b07e9f76f07a5c6781f18c6"
+
 tslint-eslint-rules@4.1.1, tslint-eslint-rules@^4.1.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/tslint-eslint-rules/-/tslint-eslint-rules-4.1.1.tgz#7c30e7882f26bc276bff91d2384975c69daf88ba"
