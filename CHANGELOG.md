@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/ikatyang/tslint-config-prettier-ext/compare/v1.1.0...v1.2.0) (2017-07-28)
+
+
+### Features
+
+* support codelyzer ([#9](https://github.com/ikatyang/tslint-config-prettier-ext/issues/9)) ([7e8a353](https://github.com/ikatyang/tslint-config-prettier-ext/commit/7e8a353))
+* support tslint-divid ([#8](https://github.com/ikatyang/tslint-config-prettier-ext/issues/8)) ([13130eb](https://github.com/ikatyang/tslint-config-prettier-ext/commit/13130eb))
+* support tslint-immutable ([d0a72fc](https://github.com/ikatyang/tslint-config-prettier-ext/commit/d0a72fc))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/ikatyang/tslint-config-prettier-ext/compare/v1.0.0...v1.1.0) (2017-07-28)
 
