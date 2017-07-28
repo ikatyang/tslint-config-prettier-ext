@@ -22,6 +22,10 @@
       "automerge": "patch"
     },
     {
+      "packageName": "tslint-microsoft-contrib",
+      "automerge": "patch"
+    },
+    {
       "packageName": "tslint-react",
       "automerge": "patch"
     }
