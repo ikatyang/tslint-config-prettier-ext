@@ -1,5 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (no-empty-line-after-opening-brace) /rules/tslint-microsoft-contrib/no-empty-line-after-opening-brace/test.ts[2, 1]: Opening brace cannot be followed by empty line
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
 exports[`should be pretty after formatting 1`] = `
 "
 <<<<<< before
@@ -14,10 +26,5 @@ if (true) {
 }
 
 >>>>>> after
-"
-`;
-
-exports[`should fail before formatting 1`] = `
-"ERROR: (no-empty-line-after-opening-brace) /rules/tslint-microsoft-contrib/no-empty-line-after-opening-brace/test.ts[2, 1]: Opening brace cannot be followed by empty line
 "
 `;

@@ -1,5 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (one-line) /rules/tslint/one-line/test.ts[2, 1]: misplaced opening brace
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
 exports[`should be pretty after formatting 1`] = `
 "
 <<<<<< before
@@ -12,10 +24,5 @@ function fn()
 function fn() {}
 
 >>>>>> after
-"
-`;
-
-exports[`should fail before formatting 1`] = `
-"ERROR: (one-line) /rules/tslint/one-line/test.ts[2, 1]: misplaced opening brace
 "
 `;

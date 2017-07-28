@@ -1,5 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (space-in-parens) /rules/tslint-eslint-rules/space-in-parens/test.ts[1, 10]: there should be no spaces inside this paren.
+ERROR: (space-in-parens) /rules/tslint-eslint-rules/space-in-parens/test.ts[1, 17]: there should be no spaces inside this paren.
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
 exports[`should be pretty after formatting 1`] = `
 "
 <<<<<< before
@@ -9,11 +22,5 @@ var x = ( 1 + 2 ) * 3;
 var x = (1 + 2) * 3;
 
 >>>>>> after
-"
-`;
-
-exports[`should fail before formatting 1`] = `
-"ERROR: (space-in-parens) /rules/tslint-eslint-rules/space-in-parens/test.ts[1, 10]: there should be no spaces inside this paren.
-ERROR: (space-in-parens) /rules/tslint-eslint-rules/space-in-parens/test.ts[1, 17]: there should be no spaces inside this paren.
 "
 `;
