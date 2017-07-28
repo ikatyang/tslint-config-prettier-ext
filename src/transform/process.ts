@@ -5,7 +5,7 @@ export function process(source_text: string, source_path: string) {
 
     const filename = ${JSON.stringify(source_path)};
     const source = ${JSON.stringify(source_text)};
-    const formatted = runtime.format(source);
+    const formatted = runtime.format(filename, source);
 
     const message_no_error = 'no error\\n';
     const rule_name = path.basename(__dirname);
