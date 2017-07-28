@@ -1,5 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (new-parens) /rules/tslint/new-parens/test.ts[2, 11]: Parentheses are required when invoking a constructor
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
 exports[`should be pretty after formatting 1`] = `
 "
 <<<<<< before
@@ -11,10 +23,5 @@ class X {}
 const x = new X();
 
 >>>>>> after
-"
-`;
-
-exports[`should fail before formatting 1`] = `
-"ERROR: (new-parens) /rules/tslint/new-parens/test.ts[2, 11]: Parentheses are required when invoking a constructor
 "
 `;

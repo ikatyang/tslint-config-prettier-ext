@@ -1,5 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (indent) /rules/tslint/indent/test.ts[2, 1]: 2 space indentation expected
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
 exports[`should be pretty after formatting 1`] = `
 "
 <<<<<< before
@@ -13,10 +25,5 @@ if (true) {
 }
 
 >>>>>> after
-"
-`;
-
-exports[`should fail before formatting 1`] = `
-"ERROR: (indent) /rules/tslint/indent/test.ts[2, 1]: 2 space indentation expected
 "
 `;

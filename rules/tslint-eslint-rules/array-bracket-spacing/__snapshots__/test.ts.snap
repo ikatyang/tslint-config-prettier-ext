@@ -1,5 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (array-bracket-spacing) /rules/tslint-eslint-rules/array-bracket-spacing/test.ts[1, 13]: There should be no space after \\"[\\"
+ERROR: (array-bracket-spacing) /rules/tslint-eslint-rules/array-bracket-spacing/test.ts[1, 28]: There should be no space before \\"]\\"
+ERROR: (array-bracket-spacing) /rules/tslint-eslint-rules/array-bracket-spacing/test.ts[2, 7]: There should be no space after \\"[\\"
+ERROR: (array-bracket-spacing) /rules/tslint-eslint-rules/array-bracket-spacing/test.ts[2, 14]: There should be no space before \\"]\\"
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
 exports[`should be pretty after formatting 1`] = `
 "
 <<<<<< before
@@ -11,13 +26,5 @@ const arr = [\\"foo\\", \\"bar\\"];
 const [x, y] = arr;
 
 >>>>>> after
-"
-`;
-
-exports[`should fail before formatting 1`] = `
-"ERROR: (array-bracket-spacing) /rules/tslint-eslint-rules/array-bracket-spacing/test.ts[1, 13]: There should be no space after \\"[\\"
-ERROR: (array-bracket-spacing) /rules/tslint-eslint-rules/array-bracket-spacing/test.ts[1, 28]: There should be no space before \\"]\\"
-ERROR: (array-bracket-spacing) /rules/tslint-eslint-rules/array-bracket-spacing/test.ts[2, 7]: There should be no space after \\"[\\"
-ERROR: (array-bracket-spacing) /rules/tslint-eslint-rules/array-bracket-spacing/test.ts[2, 14]: There should be no space before \\"]\\"
 "
 `;
