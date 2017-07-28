@@ -1,5 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (arrow-parens) /rules/tslint/arrow-parens/test.ts[1, 9]: Parentheses are prohibited around the parameter in this single parameter arrow function
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
 exports[`should be pretty after formatting 1`] = `
 "
 <<<<<< before
@@ -9,10 +21,5 @@ exports[`should be pretty after formatting 1`] = `
 [].map(x => 1);
 
 >>>>>> after
-"
-`;
-
-exports[`should fail before formatting 1`] = `
-"ERROR: (arrow-parens) /rules/tslint/arrow-parens/test.ts[1, 9]: Parentheses are prohibited around the parameter in this single parameter arrow function
 "
 `;

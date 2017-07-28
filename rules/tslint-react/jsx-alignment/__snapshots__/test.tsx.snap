@@ -1,5 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (jsx-alignment) /rules/tslint-react/jsx-alignment/test.tsx[1, 18]: JSX attributes must be on a line below the opening tag
+ERROR: (jsx-alignment) /rules/tslint-react/jsx-alignment/test.tsx[2, 5]: JSX attributes must be on their own line and vertically aligned
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
 exports[`should be pretty after formatting 1`] = `
 "
 <<<<<< before
@@ -11,11 +24,5 @@ const bad = <Foo bar
 const bad = <Foo bar car />;
 
 >>>>>> after
-"
-`;
-
-exports[`should fail before formatting 1`] = `
-"ERROR: (jsx-alignment) /rules/tslint-react/jsx-alignment/test.tsx[1, 18]: JSX attributes must be on a line below the opening tag
-ERROR: (jsx-alignment) /rules/tslint-react/jsx-alignment/test.tsx[2, 5]: JSX attributes must be on their own line and vertically aligned
 "
 `;
