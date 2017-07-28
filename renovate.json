@@ -14,6 +14,10 @@
       "automerge": "patch"
     },
     {
+      "packageName": "tslint-consistent-codestyle",
+      "automerge": "patch"
+    },
+    {
       "packageName": "tslint-eslint-rules",
       "automerge": "patch"
     },
