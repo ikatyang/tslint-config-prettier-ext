@@ -14,6 +14,7 @@ disable all prettier-related tslint rules
   - [tslint](https://github.com/palantir/tslint)
   - [tslint-consistent-codestyle](https://github.com/ajafff/tslint-consistent-codestyle)
   - [tslint-eslint-rules](https://github.com/buzinas/tslint-eslint-rules)
+  - [tslint-immutable](https://github.com/jonaskello/tslint-immutable)
   - [tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib)
   - [tslint-misc-rules](https://github.com/jwbay/tslint-misc-rules)
   - [tslint-react](https://github.com/palantir/tslint-react)
