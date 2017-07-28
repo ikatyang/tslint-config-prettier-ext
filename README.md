@@ -17,6 +17,7 @@ disable all prettier-related tslint rules
   - [tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib)
   - [tslint-misc-rules](https://github.com/jwbay/tslint-misc-rules)
   - [tslint-react](https://github.com/palantir/tslint-react)
+  - [vrsource-tslint-rules](https://github.com/vrsource/vrsource-tslint-rules)
 
 ## Install
 

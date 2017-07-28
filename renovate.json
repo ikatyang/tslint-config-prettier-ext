@@ -32,6 +32,10 @@
     {
       "packageName": "tslint-react",
       "automerge": "patch"
+    },
+    {
+      "packageName": "vrsource-tslint-rules",
+      "automerge": "patch"
     }
   ]
 }
