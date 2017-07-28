@@ -6,6 +6,10 @@
   "semanticCommits": true,
   "packages": [
     {
+      "packageName": "codelyzer",
+      "automerge": "patch"
+    },
+    {
       "packageName": "prettier",
       "automerge": "patch"
     },

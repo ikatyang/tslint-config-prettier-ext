@@ -11,6 +11,7 @@ disable all prettier-related tslint rules
 
 - fully tested
 - support rules from
+  - [codelyzer](https://github.com/mgechev/codelyzer)
   - [tslint](https://github.com/palantir/tslint)
   - [tslint-consistent-codestyle](https://github.com/ajafff/tslint-consistent-codestyle)
   - [tslint-divid](https://github.com/jonaskello/tslint-divid)
