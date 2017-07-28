@@ -12,7 +12,7 @@ disable all prettier-related tslint rules
 - fully tested
 - support rules from
   - [tslint](https://github.com/palantir/tslint)
-  - [tslint-consistent-codestyle](https://github.com/ajafff/tslint-consistent-codestyle) (currently no conflicts)
+  - [tslint-consistent-codestyle](https://github.com/ajafff/tslint-consistent-codestyle)
   - [tslint-eslint-rules](https://github.com/buzinas/tslint-eslint-rules)
   - [tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib)
   - [tslint-react](https://github.com/palantir/tslint-react)
