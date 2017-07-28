@@ -26,6 +26,10 @@
       "automerge": "patch"
     },
     {
+      "packageName": "tslint-misc-rules",
+      "automerge": "patch"
+    },
+    {
       "packageName": "tslint-react",
       "automerge": "patch"
     }
