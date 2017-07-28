@@ -6,6 +6,10 @@
   "semanticCommits": true,
   "packages": [
     {
+      "packageName": "prettier",
+      "automerge": "patch"
+    },
+    {
       "packageName": "tslint",
       "automerge": "patch"
     },
