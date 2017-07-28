@@ -1,5 +1,5 @@
 {
-  "extends": "tslint-eslint-rules",
+  "extends": "../tslint.json",
   "rules": {
     "ter-func-call-spacing": [true, "never"]
   }

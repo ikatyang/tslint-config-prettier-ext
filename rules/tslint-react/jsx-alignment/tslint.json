@@ -1,5 +1,5 @@
 {
-  "rulesDirectory": ["../../../node_modules/tslint-react/rules"],
+  "extends": "../tslint.json",
   "rules": {
     "jsx-alignment": true
   }
