@@ -44,7 +44,7 @@
     "ts-jest": "20.0.7",
     "ts-node": "3.3.0",
     "tslint": "5.5.0",
-    "tslint-config-ikatyang": "1.0.2",
+    "tslint-config-ikatyang": "2.0.0",
     "tslint-consistent-codestyle": "1.6.0",
     "tslint-divid": "1.0.4",
     "tslint-eslint-rules": "4.1.1",
