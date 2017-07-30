@@ -4,5 +4,5 @@
     "lib": ["es6"],
     "module": "commonjs"
   },
-  "include": ["src/**/*.ts", "gulpfile.ts"]
+  "include": ["src/**/*.ts"]
 }
