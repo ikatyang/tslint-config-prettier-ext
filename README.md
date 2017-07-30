@@ -9,6 +9,8 @@ disable all prettier-related tslint rules
 
 [Changelog](https://github.com/ikatyang/tslint-config-prettier-ext/blob/master/CHANGELOG.md)
 
+*You might be interested in installing [tslint-plugin-prettier](https://github.com/ikatyang/tslint-plugin-prettier), which is a tslint plugin for prettier formatting.*
+
 ## Features
 
 - fully tested
@@ -68,6 +70,7 @@ yarn run test
 
 ## Related
 
+- [tslint-plugin-prettier](https://github.com/ikatyang/tslint-plugin-prettier)
 - [tslint-config-prettier](https://github.com/alexjoverm/tslint-config-prettier)
 
 ## License
