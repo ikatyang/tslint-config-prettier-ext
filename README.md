@@ -21,6 +21,7 @@ disable all prettier-related tslint rules
   - [tslint-immutable](https://github.com/jonaskello/tslint-immutable)
   - [tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib)
   - [tslint-misc-rules](https://github.com/jwbay/tslint-misc-rules)
+  - [tslint-plugin-ikatyang](https://github.com/ikatyang/tslint-plugin-ikatyang)
   - [tslint-react](https://github.com/palantir/tslint-react)
   - [vrsource-tslint-rules](https://github.com/vrsource/vrsource-tslint-rules)
 

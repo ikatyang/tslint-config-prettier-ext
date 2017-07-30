@@ -42,6 +42,10 @@
       "automerge": "patch"
     },
     {
+      "packageName": "tslint-plugin-ikatyang",
+      "automerge": "patch"
+    },
+    {
       "packageName": "tslint-react",
       "automerge": "patch"
     },
