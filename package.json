@@ -36,7 +36,7 @@
     "standard-version": "4.2.0",
     "ts-jest": "20.0.7",
     "tslint": "5.5.0",
-    "tslint-config-ikatyang": "2.0.1",
+    "tslint-config-ikatyang": "2.1.0",
     "tslint-consistent-codestyle": "1.6.0",
     "tslint-divid": "1.0.4",
     "tslint-eslint-rules": "4.1.1",
