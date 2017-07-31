@@ -1,3 +1,8 @@
 {
-  "extends": "tslint-config-ikatyang"
+  "extends": [
+    "tslint-config-ikatyang",
+    "./lib/rules.json",
+    "tslint-plugin-prettier",
+    "prettier-config-ikatyang/tslint"
+  ]
 }
