@@ -58,9 +58,6 @@ yarn run lint
 # build helpers
 yarn run build
 
-# format sources
-yarn run format
-
 # generate rules.json
 yarn run generate
 
