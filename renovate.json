@@ -1,52 +1,21 @@
 {
   "extends": "ikatyang:library",
-  "packages": [
+  "packageRules": [
     {
-      "packageName": "codelyzer",
-      "automerge": "patch"
-    },
-    {
-      "packageName": "prettier",
-      "automerge": "patch"
-    },
-    {
-      "packageName": "tslint",
-      "automerge": "patch"
-    },
-    {
-      "packageName": "tslint-consistent-codestyle",
-      "automerge": "patch"
-    },
-    {
-      "packageName": "tslint-divid",
-      "automerge": "patch"
-    },
-    {
-      "packageName": "tslint-eslint-rules",
-      "automerge": "patch"
-    },
-    {
-      "packageName": "tslint-immutable",
-      "automerge": "patch"
-    },
-    {
-      "packageName": "tslint-microsoft-contrib",
-      "automerge": "patch"
-    },
-    {
-      "packageName": "tslint-misc-rules",
-      "automerge": "patch"
-    },
-    {
-      "packageName": "tslint-plugin-ikatyang",
-      "automerge": "patch"
-    },
-    {
-      "packageName": "tslint-react",
-      "automerge": "patch"
-    },
-    {
-      "packageName": "vrsource-tslint-rules",
+      "packageNames": [
+        "codelyzer",
+        "prettier",
+        "tslint",
+        "tslint-consistent-codestyle",
+        "tslint-divid",
+        "tslint-eslint-rules",
+        "tslint-immutable",
+        "tslint-microsoft-contrib",
+        "tslint-misc-rules",
+        "tslint-plugin-ikatyang",
+        "tslint-react",
+        "vrsource-tslint-rules"
+      ],
       "automerge": "patch"
     }
   ]
