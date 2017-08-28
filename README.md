@@ -1,3 +1,5 @@
+[DEPRECATED] This project has been merged into [alexjoverm/tslint-config-prettier](https://github.com/alexjoverm/tslint-config-prettier).
+
 # tslint-config-prettier-ext
 
 [![npm](https://img.shields.io/npm/v/tslint-config-prettier-ext.svg)](https://www.npmjs.com/package/tslint-config-prettier-ext)
